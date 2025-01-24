@@ -29,6 +29,6 @@ public class Vacuum extends Appliance {
 
     @Override
     public String formatForFile() {
-        return super.toString() + ";" + batteryVoltage + ";" + grade;
+        return super.toString() + ";" + grade +";"+ batteryVoltage;
     }
 }

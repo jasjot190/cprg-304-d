@@ -32,6 +32,6 @@ public class Refrigerator extends Appliance {
 
     @Override
     public String formatForFile() {
-        return super.toString() + ";" + doors + ";" + height + ";" + width;
+        return super.toString() + ";" + doors + ";" + Integer.toString((int) Math.round(height)) + ";" + Integer.toString((int) Math.round(width));
     }
 }
